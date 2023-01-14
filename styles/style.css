@@ -1,3 +1,83 @@
-body {
-  background-color: aqua;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.size {
+  width: 65vw;
+  margin: 0 auto;
+}
+/* Header section start  */
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+}
+.logo > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #3a3a3a;
+}
+.nav-bar > ul {
+  display: flex;
+  gap: 34px;
+}
+.nav-bar > ul > li {
+  list-style: none;
+}
+.nav-bar > ul > li a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+/* hero section start  */
+.hero {
+  display: flex;
+  align-items: center;
+}
+.hero-info-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  color: #3a3a3a;
+}
+.hero-info-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  margin-bottom: 20px;
+}
+.hero-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e02c6d;
+  border-radius: 41px;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+.hero-image {
+  background-image: url(../images/Circle\ design.svg);
+}
+/* hero section end */
+/* Header section end  */

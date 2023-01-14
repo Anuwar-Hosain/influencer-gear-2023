@@ -99,8 +99,9 @@ body {
 /* <!-- Product section start  --> */
 .products {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 330px);
   gap: 30px;
+  justify-content: center;
 }
 .product-title {
   font-family: "Poppins";
@@ -109,6 +110,7 @@ body {
   font-size: 28px;
   color: #3a3a3a;
   text-align: center;
+  margin-bottom: 30px;
 }
 .product-card {
   background: #ffffff;
@@ -123,6 +125,7 @@ body {
   font-weight: 500;
   font-size: 28px;
   color: #18191f;
+  cursor: pointer;
 }
 .price {
   font-family: "Inter";
@@ -157,7 +160,71 @@ body {
   color: rgba(224, 44, 109, 0.87);
   margin-top: 20px;
   cursor: pointer;
-  text-align: right;
+  text-align: center;
 }
 /* <!-- Product section end  --> */
+/* feature section start */
+.feature {
+  display: flex;
+  gap: 96px;
+  margin-top: 70px;
+  align-items: center;
+}
+.feature-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  color: #0a0826;
+}
+.feature-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #6c6c6c;
+  margin-bottom: 16px;
+}
+.feature-btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background: #e02c6d;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+/* feature section end */
 /* Main Section end  */
+
+/* Footer styles */
+.footer {
+  background: #0a0826;
+}
+.foot {
+  text-align: center;
+  padding: 70px 0;
+}
+.foot > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.foot > p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+.foot > i {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 20px;
+  cursor: pointer;
+}
+/* Footer styles */
